@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 import axios from "axios";
 import {Formtable} from './components/Formtable';
 
-axios.defaults.baseURL = "http://localhost:5050/";
+axios.defaults.baseURL = "https://vendor-management-system-using-mern.vercel.app/";
 
 function App() {
 
